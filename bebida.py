@@ -1,0 +1,2 @@
+class Bebida:
+    pass
