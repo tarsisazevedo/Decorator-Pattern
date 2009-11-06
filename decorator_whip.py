@@ -1,6 +1,6 @@
-from bebida import Bebida
+from decorator_abstrato import *
 
-class Whip(Bebida):
+class Whip(AbstractDecorator):
     def __init__(self, cafe):
          self.cafe = cafe
 
