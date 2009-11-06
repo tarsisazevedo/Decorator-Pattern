@@ -1,2 +1,3 @@
 class Bebida:
-    pass
+    def get_preco(self):
+        pass
