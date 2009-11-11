@@ -2,11 +2,11 @@
 from pyhistorian import *
 from should_dsl import *
 
-from cliente import *
+from decorator_pattern.cliente import *
 
-from cafe_a_moda_da_casa import *
-from decorators.decorator_whip import *
-from decorators.decorator_leite import *
+from decorator_pattern.bebidas.cafe_a_moda_da_casa import *
+from decorator_pattern.decorators.decorator_whip import *
+from decorator_pattern.decorators.decorator_leite import *
 
 class PedindoUmCafeComAdicional(Historia):
     """

@@ -1,4 +1,4 @@
-from bebida import *
+from decorator_pattern.bebidas import *
 
 class Cliente:
     def pedir_cafe(self, cafe):

@@ -1,4 +1,4 @@
-from decorator_abstrato import *
+from decorator_pattern.decorators.decorator_abstrato import *
 
 class Whip(AbstractDecorator):
     def __init__(self, cafe):

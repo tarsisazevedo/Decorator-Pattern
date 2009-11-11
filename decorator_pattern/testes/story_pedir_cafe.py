@@ -5,9 +5,9 @@ from should_dsl import *
 
 from decorator_pattern.bebidas.cafe_espresso import *
 from decorator_pattern.bebidas.cafe_descafeinado import *
-from bebidas.cafe_preto import *
-
-from cliente import *
+from decorator_pattern.bebidas.cafe_preto import *
+from decorator_pattern.bebidas.cafe_a_moda_da_casa import *
+from decorator_pattern.cliente import *
 
 class PedindoUmCafeSimples(Historia):
     """
