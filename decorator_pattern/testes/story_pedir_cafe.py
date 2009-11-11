@@ -3,10 +3,9 @@
 from pyhistorian import *
 from should_dsl import *
 
-from cafe_a_moda_da_casa import *
-from cafe_espresso import *
-from cafe_descafeinado import *
-from cafe_preto import *
+from decorator_pattern.bebidas.cafe_espresso import *
+from decorator_pattern.bebidas.cafe_descafeinado import *
+from bebidas.cafe_preto import *
 
 from cliente import *
 
